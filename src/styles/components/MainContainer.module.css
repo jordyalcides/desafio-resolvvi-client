@@ -1,0 +1,88 @@
+.mainContainer {
+    background-color: var(--white);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid var(--gray-line);
+}
+
+.mainContainer>div,
+.mainContainer form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: auto;
+    height: auto;
+}
+
+.mainContainer>div>h1,
+.mainContainer form>h1 {
+    margin: 2.5rem 5rem;
+}
+
+.mainContainer>div>strong,
+.mainContainer form>strong {
+    color: var(--text-description);
+    font-weight: 400;
+    font-style: italic;
+    margin: 0 2.5rem 2rem;
+}
+
+.inputContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+}
+
+.inputContainer label {
+    align-self: flex-start;
+    color: var(--pink);
+    font: 400 1.2rem 'Roboto', sans-serif;
+    margin: 1.5rem 0 0.25rem;
+}
+
+.inputContainer input,
+.inputContainer select,
+.inputContainer textarea {
+    background-color: var(--background);
+    width: 100%;
+    border: 1px solid var(--gray-line);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    margin: 0.25rem 0 1.5rem;
+}
+
+.submitContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 2.5rem 0;
+}
+
+.submitContainer button {
+    background-color: var(--pink);
+    color: var(--white);
+    border: 1px solid var(--gray-line);
+    border-radius: 5px;
+    width: 80%;
+    height: 50px;
+}
+
+.submitContainer button:hover {
+    opacity: 0.8;
+}
+
+.submitContainer button:active {
+    opacity: 1;
+    background-color: var(--pink-dark);
+}

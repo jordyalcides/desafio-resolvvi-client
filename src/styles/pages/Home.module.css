@@ -1,0 +1,7 @@
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100vh;
+    background: var(--background);
+    margin: 0 auto;
+}

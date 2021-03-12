@@ -40,7 +40,7 @@ Create the folder and access it:
 
 Copy the repository locally:
 
-	git clone ''
+	git clone 'https://github.com/jordyalcides/desafio-resolvvi-client.git'
 
 
 Start the project with:
@@ -98,7 +98,7 @@ Crie a pasta e acesse a mesma:
 
 Copie o repositório localmente:
 
-	git clone ''
+	git clone 'https://github.com/jordyalcides/desafio-resolvvi-client.git'
 
 
 Inicie o banco de dados com as seeds pré-prontas:
